@@ -1,0 +1,23 @@
+.bg{
+  background-color: red;
+  height:100vh;
+  width:100%;
+}
+.bg1{
+  background-color: yellow;
+  height:100vh;
+}
+.white{
+  background-color: white;
+}
+.bg2{
+  background-color: pink;
+}
+.bg3{
+  background-color: green;
+  height:100vh;
+}
+.bg4{
+  background-color: blue;
+  height:100vh;
+}

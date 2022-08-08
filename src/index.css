@@ -1,0 +1,22 @@
+.bg{
+  background-color: red;
+  height: 100%;
+
+}
+.bg1{
+  background-color: green;
+}
+#btn:hover{
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.video {
+
+  position: relative;
+  align-items: center;
+  margin-top: -400px;
+  margin-left:200px;
+}
