@@ -12,7 +12,7 @@
     {
       "MovieName": "The Gray Man",
       "link": "https://occ-0-2484-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbPXSGkNDo3cQ2rBKviUt71o_aPhcLPIcfsm8c8d2E2xEiu8qcLlAkPdMGyf6qqVK7kunauLQe9n1saLPSD6fjq-YYtIuKNcMbtO.jpg?r=d7f",
-      "photoLink": "file:///E:/sandeep/counting/coutdown/src/Video/Dark.mp4",
+      "photoLink": "https://m.media-amazon.com/images/M/MV5BOWY4MmFiY2QtMzE1YS00NTg1LWIwOTQtYTI4ZGUzNWIxNTVmXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
       "rating": "4.8",
       "releseDate": 2022,
       "description": "When a shadowy CIA agent uncovers damning agency secrets, he’s hunted across the globe by a sociopathic rogue operative who’s put a bounty on his head.\nStarring:Ryan Gosling,Chris Evans,Ana de Armas",
@@ -21,7 +21,7 @@
     {
       "MovieName": "Morbius",
       "link": "https://occ-0-2484-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVdQO8JweMJwZhMU0XkARlmaDYz0NZAa0saKZrrcbVQxIV9CHKdOnDnkjy9OzZSVE2mlCoQe6LPXdk1bNi-hb1-oshCixQ3Kho_x.jpg?r=c11",
-      "photoLink": "https://www.netflix.com/in/title/81198933?source=35",
+      "photoLink": "https://m.media-amazon.com/images/M/MV5BNTA3N2Q0ZTAtODJjNy00MmQzLWJlMmItOGFmNDI0ODgxN2QwXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_FMjpg_UX980_.jpg",
       "rating": "4.5",
       "releseDate": 2022,
       "description": "A biochemist with a rare blood disease in search of a cure injects himself with a dangerous serum that gives him super strength and a thirst for blood.\nStarring:Jared Leto,Matt Smith,Adria Arjona",
@@ -43,6 +43,7 @@
       "rating": "4.6",
       "releseDate": 2019,
       "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.\nStarring:Henry Cavill,Anya Chalotra,Freya Allan\nCreators:Lauren Schmidt Hissrich",
+      "logo": "https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABStRa0c8EFHziT9jn9I0Wu_MqCJaMRrUhm-NkT0NNNr-Xx2m7zM3Q8rFGUXLPileawgPPOIKR5_7-yKtYSrHDqRqgKiXu2q5t9woEu-5NiN2kve9MmXBCOxoudtZaXaYRMs37XIHGeSuZ26vUpgKG4aWUAjnLo82Yc42wozIKhlgrA.webp?r=286",
       "id": 5
     },
     {
@@ -80,6 +81,37 @@
       "releseDate": 2022,
       "description": "gfdgfdgdfgdgdfgdfgdfg",
       "id": 10
+    },
+    {
+      "MovieName": "The Witcher",
+      "link": "https://occ-0-2484-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWLqqfIxOhGGjSyegfImujv6mz09DyEV5Qi-SSSH_KtcICTPpu2YosnVhIGTjbXO94Sx7irIIuq2-U-FKdXH1cv-S949lIHrdMCc.jpg?r=93a",
+      "photoLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvsttCqKqxHQyJ3NOihnZcN_-MHaMMu-sHJA&usqp=CAU",
+      "rating": "4.6",
+      "releseDate": 2019,
+      "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.\\nStarring:Henry Cavill,Anya Chalotra,Freya Allan\\nCreators:Lauren Schmidt Hissrich",
+      "logo": "https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABStRa0c8EFHziT9jn9I0Wu_MqCJaMRrUhm-NkT0NNNr-Xx2m7zM3Q8rFGUXLPileawgPPOIKR5_7-yKtYSrHDqRqgKiXu2q5t9woEu-5NiN2kve9MmXBCOxoudtZaXaYRMs37XIHGeSuZ26vUpgKG4aWUAjnLo82Yc42wozIKhlgrA.webp?r=286",
+      "id": 11
+    },
+    {
+      "MovieName": "",
+      "link": "",
+      "photoLink": "",
+      "rating": "",
+      "releseDate": "",
+      "description": "",
+      "logo": "https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABStRa0c8EFHziT9jn9I0Wu_MqCJaMRrUhm-NkT0NNNr-Xx2m7zM3Q8rFGUXLPileawgPPOIKR5_7-yKtYSrHDqRqgKiXu2q5t9woEu-5NiN2kve9MmXBCOxoudtZaXaYRMs37XIHGeSuZ26vUpgKG4aWUAjnLo82Yc42wozIKhlgrA.webp?r=286",
+      "id": 12
+    },
+    {
+      "MovieName": "Interceptor",
+      "link": "https://occ-0-3213-64.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcY8bSGWJU1xd2l3g57oa1DrN0tiC4VXV-6fh6QNbr7VGRYbDa7pNxJNsjJtf-5jh6IWJEhmKcHAWz46K24UDGpyNR-SXb_DMPuV.jpg?r=2fa",
+      "photoLink": "https://m.media-amazon.com/images/M/MV5BZGNjYjQ3NjgtZWM0NS00MTY5LTlkZWMtODZlNzhkNTU3MzZiXkEyXkFqcGdeQXVyMjM2OTI3Mzk@._V1_.jpg",
+      "rating": "4.0",
+      "releseDate": 2022,
+      "description": "The last officer standing on a remote missile defense base wages the battle of her life against terrorists aiming 16 stolen nuclear weapons at the US.\nStarring:Elsa Pataky,Luke Bracey,Aaron Glenane",
+      "logo": "https://occ-0-3213-64.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABVtVPCmEkFOz4rQj-YFRhmCZTTv1m7GUuFK_ypF3rUlNQUAEXV7rJ2R_SNngT2OWaPVHgYt9VDrrc1ktjgZN6oqE0P9BLZ54qxk6HVoHJJgIJl-cyh5CLcHepinjSzqZhrDiOVnUm31CVk-2zcvW480BZFQYJFLMGJpUoX8MZdaRyp0b8kOQ7Q.png?r=c3c",
+      "movieGenre": "Action & Adventure",
+      "id": 13
     }
   ]
 }

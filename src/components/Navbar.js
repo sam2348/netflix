@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg  navbar-expand-md fixed-top navbar-dark bg-dark">
-        <div className="nohove">
+      <nav className="navbar navbar-expand-lg fixed-top navbar-dark shadow-5-strong fs-5">
+        <div className="nohove me-4 ms-4">
           <img
-            src="https://fontmeme.com/permalink/191220/23c21e73bc5321e9d4cd67900457f4b2.png" height={60}
+            src="https://fontmeme.com/permalink/191220/23c21e73bc5321e9d4cd67900457f4b2.png" height={50}
             className="nav-img mt-2"
             alt="netflix-font"
             to="/"
@@ -32,18 +32,23 @@ function Navbar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="//">
+              <NavLink className="nav-link" to="#">
                 Tv Shows
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="///">
+              <NavLink className="nav-link" to="#">
                 Movies
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="#">
                 Search
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/AddUser">
+                AddUser
               </NavLink>
             </li>
           </ul>

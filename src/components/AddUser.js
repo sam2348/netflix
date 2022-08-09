@@ -12,7 +12,9 @@ function AddUser() {
     photoLink: "",
     rating: "",
     releseDate: "",
-    description: ""
+    description: "",
+    logo:"",
+    movieGenre:""
   });
 
   const onClick = (e) => {
@@ -24,8 +26,10 @@ function AddUser() {
         rating: name.rating,
         releseDate: name.releseDate,
         description: name.description,
+        logo: name.logo,
+        movieGenre:name.movieGenre,
     });
-    navigate("/Movie");
+    navigate("/");
   };
 
   const inputhandler = (event) => {
@@ -71,9 +75,8 @@ function AddUser() {
   return (
     <>
       <div className="bg-dark text-light">
-        <div className="container py-5 bg-dark text-light">
-          <h1>Add Movie</h1>
-          <h2> Movie name is :</h2>
+        <div className="container py-5 mt-5 bg-dark text-light">
+          <h1 className="text-center mb-3">Add Movie</h1>
           <form className="needs-validation">
             <div className="input-group mb-3">
               <input
@@ -123,6 +126,34 @@ function AddUser() {
                 className="form-control"
                 id="basic-url"
                 aria-describedby="basic-addon3"
+                placeholder="Img logo"
+                name="logo"
+                onChange={(event) => {
+                  iputhandler(event);
+                }}
+                required
+              />
+            </div>
+            <div className="input-group mb-3">
+              <input
+                type="text"
+                className="form-control"
+                id="basic-url"
+                aria-describedby="basic-addon3"
+                placeholder="movie Genre"
+                name="movieGenre"
+                onChange={(event) => {
+                  iputhandler(event);
+                }}
+                required
+              />
+            </div>
+            <div className="input-group mb-3">
+              <input
+                type="text"
+                className="form-control"
+                id="basic-url"
+                aria-describedby="basic-addon3"
                 placeholder="Rating"
                 name="rating"
                 onChange={(event) => {
@@ -158,7 +189,6 @@ function AddUser() {
                 required
               />
             </div>
-
             <div className="d-grid gap-2 mt-3">
               <button
                 className="btn btn-secondary"

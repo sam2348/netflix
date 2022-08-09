@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-         <Route path="/NextPage" element={<NextPage />} />
+         <Route path="/NextPage/:MovieName" element={<NextPage />} />
          <Route path="/" element={<Home />} />
          <Route path="/Try" element={<Try />} />
         <Route path="/AddUser" element={<AddUser />} />

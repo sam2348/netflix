@@ -1,3 +1,6 @@
+body{
+  background: #212529;
+}
 .bg{
   background-color: red;
   height: 100%;
@@ -6,11 +9,14 @@
 .bg1{
   background-color: green;
 }
-#btn:hover{
+#bts:hover{
   background-color: red;
   border: none;
   color: white;
   border-radius: 5px;
+}
+.bt1{
+  color: white;
 }
 
 .video {
@@ -19,4 +25,23 @@
   align-items: center;
   margin-top: -400px;
   margin-left:200px;
+}
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: white;
+}
+.react-icons {
+  vertical-align: middle;
+  font-size: 50px;
+}
+.bg-purpose #effect{ 
+  background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0));
+  position: absolute;
+  top:-120px;
+  left: -50px;
+}
+.try-purpose{
+  position: relative;
+  left:70px;
+  top:120px;
 }

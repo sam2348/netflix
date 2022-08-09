@@ -3,12 +3,14 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 // import ReactPlayer from "react-player";
 import Dark from "./Video/Dark.mp4";
+import { FaPlay } from 'react-icons/fa'
+import { GoPlus } from 'react-icons/go'
+import { BsFillInfoCircleFill } from 'react-icons/bs'
+
 
 
 function NextPage() {
   const VideoJs = Dark;
-  // const poster =
-  //   "https://occ-0-2484-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbPXSGkNDo3cQ2rBKviUt71o_aPhcLPIcfsm8c8d2E2xEiu8qcLlAkPdMGyf6qqVK7kunauLQe9n1saLPSD6fjq-YYtIuKNcMbtO.jpg?r=d7f";
   const { MovieName } = useParams();
   console.log(MovieName);
   const [show, setShow] = useState(false);
@@ -19,6 +21,8 @@ function NextPage() {
     rating: "",
     releseDate: "",
     description: "",
+    logo: "",
+    movieGenre:"",
   });
 
   useEffect(() => {
@@ -36,6 +40,8 @@ function NextPage() {
       photoLink: result.data[0].photoLink,
       rating: result.data[0].rating,
       description: result.data[0].description,
+      logo: result.data[0].logo,
+      movieGenre: result.data[0].movieGenre,
     });
   };
   console.log(users);
@@ -45,33 +51,63 @@ function NextPage() {
   const ExitPlay = () => {
     setShow(false);
   };
+  
   return (
-    <>
-    
+    <>      
+            <div className="bg-purpose">
             <div className="card bg-dark text-white" id="bg">
               <img
                 src={users.link}
                 className="card-img"
                 alt="..."
-                height={600}
+                height={700}
                 width={500}
                 onClick={ExitPlay}
               />
-              <div className="card-img-overlay w-50" style={{ marginTop: "120px" }}>
-                <h5 className="card-title" style={{ fontSize: "60px" }}>
-                  Watch {users.MovieName} Now
-                </h5>
-                <p className="card-text" style={{ fontSize: "25px" }}>
+              <div className="card-img-overlay w-50 ms-5" id="effect" style={{ marginTop: "120px" }}>
+                <div className="try-purpose">
+              <img
+                src={users.logo}
+                height={180}
+                width={350}
+              />
+              <div className="d-flex mt-3">
+              <h5 className="card-text me-4">Watch season 1</h5>
+              <button type="button" class="btn ml-1 bt1 me-4">18+</button>
+              <div className="badge bg-light text-wrap " Style="width: 2.4rem;height: 1.7rem;color:black;">
+              <h6 >AD</h6>
+              </div> 
+              </div>
+              <h6>{users.movieGenre}</h6>
+                <h6 className="card-text" Style="width:390px;">
                   {users.description}
-                </p>
+                </h6>
                 <button
-                  type="button w-100"
-                  className="btn btn-light"
-                  id="btn"
-                  style={{ fontSize: "25px" }}
+                  type="button"
+                  className="btn me-4 mt-2 btn-light"
+                  id="bts"
                   onClick={ShowPlay}
                 >
-                  Play
+                < FaPlay />
+                Play
+                </button>
+                <button
+                  type="button"
+                  className="btn me-4 mt-2 btn-light"
+                  id="bts"
+                  onClick={ShowPlay}
+                >
+                < GoPlus />
+                MyList
+                </button>
+                <button
+                  type="button"
+                  className="btn me-4 mt-2 btn-light"
+                  id="bts"
+                  onClick={ShowPlay}
+                >
+                < BsFillInfoCircleFill />
+                More Info
                 </button>
                 {show ? (
                   <video
@@ -91,7 +127,9 @@ function NextPage() {
                 ) : (
                   <div></div>
                 )}
+                </div>
               </div>
+            </div>
             </div>
     </>
   );
