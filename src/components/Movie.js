@@ -1,51 +1,51 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import ActionMovie from './ActionMovie'; 
-import Drama from './Drama'; 
 import { Rating } from "react-simple-star-rating";
 import { NavLink } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-function Home() {
-  const [film, setFilm] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [trandingList, setTrendimgList] = useState();
-  console.log(trandingList,"gggggg")
 
-  const GetMovie =async()=>{
-
+function Movie() {
+    const [film, setFilm] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [trandingList, setTrendimgList] = useState();
+    console.log(trandingList,"gggggg")
+  
+    const GetMovie =async()=>{
+  
+      try{
+        const result = await axios.get("http://localhost:3003/users");
+  
+        setFilm(result.data);
+  
+      }catch(err){
+        alert(err.message)
+      }
+    }
+  const GetTendingMovieList =async()=>{
+  
     try{
-      const result = await axios.get("http://localhost:3003/users");
-
-      setFilm(result.data);
-
+      
+      const result = await axios.get("http://localhost:3003/users?rating=4.5");
+      setTrendimgList(result.data);
+      setLoading(false);
+  
     }catch(err){
       alert(err.message)
     }
   }
-const GetTendingMovieList =async()=>{
-
-  try{
-    
-    const result = await axios.get("http://localhost:3003/users?rating=4.5");
-    setTrendimgList(result.data);
-    setLoading(false);
-
-  }catch(err){
-    alert(err.message)
-  }
-}
-  useEffect(() => {
-
-    GetMovie();
-    GetTendingMovieList();
-
-  }, []);
+    useEffect(() => {
+  
+      GetMovie();
+      GetTendingMovieList();
+  
+    }, []);
+  
 
   return (
     <>
-    {loading ? (<div>loading..</div> ) : 
+      {loading ? (<div>loading..</div> ) : 
         (
             <Carousel>
               {
@@ -72,8 +72,6 @@ const GetTendingMovieList =async()=>{
              
            </Carousel>
       ) }
-      <ActionMovie />
-      <Drama />
       <div className="bg-dark">
       <div className="container bg-dark text-light mt-2">
         <div className="row row-cols-1 row-cols-md-3">
@@ -120,4 +118,4 @@ const GetTendingMovieList =async()=>{
   );
 }
 
-export default Home;
+export default Movie;

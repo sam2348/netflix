@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import "./Css/AddUser.css"
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet"></link>
 
 
 function AddUser() {
@@ -74,9 +76,9 @@ function AddUser() {
 
   return (
     <>
-      <div className="bg-dark text-light">
-        <div className="container py-5 mt-5 bg-dark text-light">
-          <h1 className="text-center mb-3">Add Movie</h1>
+      <div className="Addmovie">
+        <div className="container py-5 mt-5" id="cont">
+          <h1 className="text-center mb-3" Style="font-family: 'DynaPuff', cursive; Color:white;">Add Movie</h1>
           <form className="needs-validation">
             <div className="input-group mb-3">
               <input
@@ -189,9 +191,9 @@ function AddUser() {
                 required
               />
             </div>
-            <div className="d-grid gap-2 mt-3">
+            < br />
+            <div className="formbtn">
               <button
-                className="btn btn-secondary"
                 type="button"
                 onClick={(e) => onClick(e)}
                 >

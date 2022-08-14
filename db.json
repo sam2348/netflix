@@ -40,7 +40,7 @@
       "MovieName": "The Witcher",
       "link": "https://occ-0-2484-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWLqqfIxOhGGjSyegfImujv6mz09DyEV5Qi-SSSH_KtcICTPpu2YosnVhIGTjbXO94Sx7irIIuq2-U-FKdXH1cv-S949lIHrdMCc.jpg?r=93a",
       "photoLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvsttCqKqxHQyJ3NOihnZcN_-MHaMMu-sHJA&usqp=CAU",
-      "rating": "4.6",
+      "rating": "4.5",
       "releseDate": 2019,
       "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.\nStarring:Henry Cavill,Anya Chalotra,Freya Allan\nCreators:Lauren Schmidt Hissrich",
       "logo": "https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABStRa0c8EFHziT9jn9I0Wu_MqCJaMRrUhm-NkT0NNNr-Xx2m7zM3Q8rFGUXLPileawgPPOIKR5_7-yKtYSrHDqRqgKiXu2q5t9woEu-5NiN2kve9MmXBCOxoudtZaXaYRMs37XIHGeSuZ26vUpgKG4aWUAjnLo82Yc42wozIKhlgrA.webp?r=286",
@@ -100,6 +100,7 @@
       "releseDate": "",
       "description": "",
       "logo": "https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/5e0byrbbfBPBmtxyXMpKqMuqOQY/AAAABStRa0c8EFHziT9jn9I0Wu_MqCJaMRrUhm-NkT0NNNr-Xx2m7zM3Q8rFGUXLPileawgPPOIKR5_7-yKtYSrHDqRqgKiXu2q5t9woEu-5NiN2kve9MmXBCOxoudtZaXaYRMs37XIHGeSuZ26vUpgKG4aWUAjnLo82Yc42wozIKhlgrA.webp?r=286",
+      "movieGenre": "Drama",
       "id": 12
     },
     {
@@ -110,8 +111,19 @@
       "releseDate": 2022,
       "description": "The last officer standing on a remote missile defense base wages the battle of her life against terrorists aiming 16 stolen nuclear weapons at the US.\nStarring:Elsa Pataky,Luke Bracey,Aaron Glenane",
       "logo": "https://occ-0-3213-64.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABVtVPCmEkFOz4rQj-YFRhmCZTTv1m7GUuFK_ypF3rUlNQUAEXV7rJ2R_SNngT2OWaPVHgYt9VDrrc1ktjgZN6oqE0P9BLZ54qxk6HVoHJJgIJl-cyh5CLcHepinjSzqZhrDiOVnUm31CVk-2zcvW480BZFQYJFLMGJpUoX8MZdaRyp0b8kOQ7Q.png?r=c3c",
-      "movieGenre": "Action & Adventure",
+      "movieGenre": "Action",
       "id": 13
+    },
+    {
+      "MovieName": "",
+      "link": "",
+      "photoLink": "",
+      "rating": "",
+      "releseDate": "",
+      "description": "",
+      "logo": "",
+      "movieGenre": "",
+      "id": 14
     }
   ]
 }
